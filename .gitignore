@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# ChromaDB vector store
+chroma_db/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Credentials (NEVER push these)
+service-account.json
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
